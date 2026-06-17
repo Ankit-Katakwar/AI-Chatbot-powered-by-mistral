@@ -1,8 +1,4 @@
-langchain
-langchain-core
-langchain-community
-langchain-groq
-langchain-google-genai
-langchain-mistralai
+streamlit
 python-dotenv
-dotenv
+langchain-core
+langchain-mistralai
