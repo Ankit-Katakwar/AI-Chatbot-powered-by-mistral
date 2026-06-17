@@ -235,11 +235,11 @@ if selected_mode != st.session_state.active_mode:
 
 active_meta = MODES[st.session_state.active_mode]
 
-# ---------------------------------------------------------------------------
+
 # Header
-# ---------------------------------------------------------------------------
-st.markdown("<div class='eyebrow'>Powered by Ministral-3B</div>", unsafe_allow_html=True)
-st.markdown("<h1 class='hero-title'>The Many Moods of Mistral</h1>", unsafe_allow_html=True)
+
+st.markdown("<div class='eyebrow'>Powered by Ministral & Langchain </div>", unsafe_allow_html=True)
+st.markdown("<h1 class='hero-title'>AI Chatbot</h1>", unsafe_allow_html=True)
 st.markdown(
     "<p class='hero-sub'>One model, several personalities — pick a mood from the sidebar and start talking.</p>",
     unsafe_allow_html=True,
@@ -250,9 +250,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------------------------
+
 # Chat log
-# ---------------------------------------------------------------------------
+
 if not st.session_state.display_log:
     st.markdown(
         f"<div class='empty-state'>{active_meta['icon']} Say something to start a conversation "
