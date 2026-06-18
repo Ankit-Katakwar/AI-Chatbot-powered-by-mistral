@@ -92,7 +92,7 @@ DEFAULT_MODE = next(iter(MODES))
 # Page setup + styling
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="The Many Moods of Mistral",
+    page_title=" Mistral chatbot",
     page_icon="🎭",
     layout="centered",
     initial_sidebar_state="expanded",
