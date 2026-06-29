@@ -92,7 +92,7 @@ DEFAULT_MODE = next(iter(MODES))
 # Page setup + styling
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title=" Mistral chatbot",
+    page_title=" Persona Verse",
     page_icon="🎭",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -238,10 +238,10 @@ active_meta = MODES[st.session_state.active_mode]
 
 # Header
 
-st.markdown("<div class='eyebrow'>Powered by Ministral & Langchain </div>", unsafe_allow_html=True)
-st.markdown("<h1 class='hero-title'>AI Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<div class='eyebrow'>Powered by Langchain & Mistral.ai  </div>", unsafe_allow_html=True)
+st.markdown("<h1 class='hero-title'>Persona Verse</h1>", unsafe_allow_html=True)
 st.markdown(
-    "<p class='hero-sub'>One model, several personalities — pick a mood from the sidebar and start talking.</p>",
+    "<p class='hero-sub'>One AI. Multi Personalities. — pick a mood from the sidebar and start talking.</p>",
     unsafe_allow_html=True,
 )
 st.markdown(
